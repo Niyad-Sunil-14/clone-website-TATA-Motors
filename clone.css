@@ -1,0 +1,228 @@
+#search-conatct{
+    height: 34px;
+    background-color: #0a0a5f;
+    margin-right: 0px;
+}
+
+#search{
+    text-decoration: none;
+    color: white;
+    margin-right: -3em;
+}
+
+#contact{
+    text-decoration: none;
+    color: white;
+    margin-right: 134px;
+}
+
+#header-image{
+    height: 2.7em;
+}
+
+#header-image-padding{
+    padding-left: 8.6em;
+    padding-bottom: 1.7em;
+}
+
+#navbarNavDropdown{
+    font-size: 13px;
+    padding-top: 23px;
+    padding-left: 35px;
+}
+
+#nav-1{
+    color: #ffffff;
+    text-shadow: 4px 4px 22px rgba(0, 0, 0, 0.3);
+}
+
+#nav-1:hover{
+    color: rgb(13 110 253);
+    text-shadow: 4px 4px 22px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+}
+
+#tata-white-logo{
+    height: 33px;
+}
+
+#tata-white-logo-div{
+    padding-right: 134px;
+    padding-bottom: 10px;
+}
+
+#carvideo{
+    margin-right: 0px;
+
+}
+
+#button{
+
+}
+
+#button-left{
+    position: absolute;
+    top: 47%;
+    left: 1%;
+    width: 58px;
+    height: 58px;
+    border-radius: 100px;
+    border-color: transparent;
+    user-select: none;
+    cursor: pointer;
+}
+
+#button-right{
+    position: absolute;
+    top: 47%;
+    right: 1%;
+    width: 58px;
+    height: 58px;
+    border-radius: 100px;
+    border-color: transparent;
+    user-select: none;
+    cursor: pointer;
+}
+
+#arrow-left{
+    height: 20.5px;
+    padding-bottom: 3px;
+    padding-right: 1px;         
+}
+
+#arrow-right{
+    height: 25px;
+    padding-left: 2px;
+}
+
+#header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.91) 17%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 165px;
+    width: 100%;
+    z-index: 1;
+}
+
+#video{
+   padding: 0px;
+   
+}
+
+#header-row{
+    margin-right: 0px;
+}
+
+#caption{
+    position: absolute;
+    top: 42%;
+    left: 7.5em;
+    width: 60%;
+    
+    
+}
+
+#h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 4px 4px 22px rgba(0, 0, 0, 0.3);
+}
+
+#body1{
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#see-how-div{
+    position: absolute;
+    top: 64.5%;
+    left: 7.5em;
+    width: 30%;
+}
+
+#see-how{
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-shadow: 4px 4px 22px rgba(0, 0, 0, 0.3);
+}
+
+#see-how:hover{
+    color: rgb(13 110 253);
+    border-color: rgb(13 110 253);
+    text-shadow: 4px 4px 22px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+}
+
+#footer-shade{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.91) 17%, rgba(0, 0, 0, 0) 100%);
+    height: 165px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -165px;
+}
+
+#image{
+    width: 100%;
+    height: 700px;
+}
+
+#image-div{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    position: relative;
+    cursor: pointer;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 10%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    height: 8px;
+    width: 7px;
+    border-radius: 2px;
+  }
+  
+  .active{
+    background-color: #ffffff;
+    width: 60px;
+  }
+
+  #dot-align{
+    top: 82%;
+    position: absolute;
+    left: 8em;
+    z-index: 2;
+  }
+
+ 
+  
+#culture-div{
+    position: absolute;
+    top: 54.5%;
+    left: 7.5em;
+    width: 30%;
+}
+  
+
+
+  
+
+

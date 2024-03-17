@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Moters Clone Website</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIatuLs8FAR1CqISKE-z7APehXfNeeS7gPw&usqp=CAU" type="image/type">
+    <link rel="stylesheet" href="clone.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="button.js"></script>
+</head>
+<body id="body1">
+    <header>
+        <div class="row align-items-center" id="search-conatct">
+            <div class="text-end col-md-10">
+            <a id="search" href="www.google.com">Search</a>
+            </div>
+            <div class="text-end col-md-2">
+                <a id="contact" href="">| &nbsp;Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <header id="header">
+        <div class="row" id="header-row">
+            <div class="col-md-3 col-sm-3 pt-4" id="header-image-padding">
+                <a href="index.html"><img id="header-image" src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Tata-Motors-logo.svg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-md-9 col-sm-9" >
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                      <ul class="navbar-nav ">
+                        <li class="nav-item actives">
+                          <a id="nav-1" class="nav-link" href="https://www.tatamotors.com/future-of-mobility/">FUTURE OF MOBILITY</a>
+                        </li>
+                        <li class="nav-item">
+                          <a id="nav-1" class="nav-link" href="">ORGANISATION</a>
+                        </li>
+                        <li class="nav-item">
+                          <a id="nav-1" class="nav-link" href="#">BUSINESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-1" class="nav-link" href="#">CORPORATE RESPONSIBILITY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-1" class="nav-link" href="#">INVESTORS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-1" class="nav-link" href="#">NEWSROOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-1" class="nav-link" href="#">CAREERS</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="" id="tata-white-logo-div">
+                        <a href="">
+                            <img id="tata-white-logo" src="Images/tata white logo.png" alt="">
+                        </a>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+      <div class="row mySlides" id="carvideo">
+        <video id="video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="Images/car-video.mp4" type="video/mp4">
+        </video>
+    
+        <div id="caption">
+          <h1 id="h1">A spotlight on <br> sustainability</h1>
+        </div>
+        <div id="see-how-div">
+          <a id="see-how" href="">See how</a>
+        </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <img id="image" src="Images/car-image.jpg" alt="">
+        <div id="caption">
+          <h1 id="h1">Tomorrow's choices, <br>today </h1>
+        </div>
+        <div id="see-how-div">
+          <a id="see-how" href="">Our commitments</a>
+        </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <img src="Images/snow-image.jpg" style="width:100%">
+        <div id="caption">
+          <h1 id="h1">Embracing <br>clean mobility </h1>
+        </div>
+        <div id="see-how-div">
+          <a id="see-how" href="">Our innovations</a>
+        </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <img src="Images/business women.png" style="width:100%">
+        <div id="caption">
+          <h1 id="h1">A step ahead </h1>
+        </div>
+        <div id="culture-div">
+          <a id="see-how" href="">Explore our culture</a>
+        </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <img src="Images/analyze.jpg" style="width:100%">
+        <div id="caption">
+          <h1 id="h1">Connecting aspirations. <br>Delivering value. </h1>
+        </div>
+        <div id="see-how-div">
+          <a id="see-how" href="">Stay informed</a>
+        </div>
+      </div>
+
+      <a><button onclick="plusSlides(-1)" id="button-left"><img id="arrow-left" src="Images/left arrow.png" alt=""></button></a>
+      <a><button onclick="plusSlides(1)" id="button-right"><img id="arrow-right" src="Images/right arrow.png" alt=""></button></a>
+
+      <div id="dot-align">
+        <span class="dot active" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+      </div>
+    </div>
+
+    <footer id="footer-shade">
+        <div id="footer-shade-div">
+
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
