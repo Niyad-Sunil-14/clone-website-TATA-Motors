@@ -360,7 +360,9 @@
 }
 
 #dot-align-down{
-    padding-left: 43.5em;
+    margin: 40px;
+    margin-bottom: 20px;
+    padding-left: 41em;
 }
   
 .dot1{
@@ -425,4 +427,50 @@
     position: absolute;
     width: 102%;
     height: 559px;
+}
+
+#third-page{
+    height: 40em;
+}
+
+#text-center-for-page-3{
+    text-align-last: center;
+}
+
+#h1-size{
+    margin-bottom: 0px;
+    font-size: 2.8rem;
+}
+
+#caption-size{
+    font-size: 17.5px;
+    margin-bottom: 15px;
+}
+
+#section-page-3{
+    padding-top: 100px;
+}
+
+#aboutus{
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+#h1-newageandfuture{
+    margin-bottom: 20px;
+    font-size: 2.8rem;
+}
+
+#read-more{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+#read-more:hover{
+    color: rgb(13 110 253);
+    border-color: rgb(13 110 253);
+    transition: all 0.3s ease-out;
+    border-bottom: 2px solid;
 }
