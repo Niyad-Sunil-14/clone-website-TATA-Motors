@@ -430,7 +430,7 @@
 }
 
 #third-page{
-    height: 40em;
+    
 }
 
 #text-center-for-page-3{
@@ -464,8 +464,9 @@
 #read-more{
     font-size: 22px;
     text-decoration: none;
-    color: #000000;
-    border-bottom: 1px solid #000000;
+    color: #0a0a5f;
+    border-bottom: 1px solid #0a0a5f;
+    
 }
 
 #read-more:hover{
@@ -473,4 +474,50 @@
     border-color: rgb(13 110 253);
     transition: all 0.3s ease-out;
     border-bottom: 2px solid;
+}
+
+#backgound-img{
+    height: 27em;
+    width: 93em;
+    margin-left: -82px;
+    margin-top: -95px;
+    margin-bottom: 100px;
+    background-image: url(https://www.tatamotors.com/wp-content/themes/TataMotors/images/Dots_About_us.png);
+}
+
+#footer-white{
+    background-color: #ffffff;
+    height: 250px;
+    width: 95.05em;
+    margin-left: -113px;
+}
+
+#nexon-div{
+    margin-left: -607px;
+    margin-top: -810px;
+
+}
+
+#nexon-img{
+    height: 46em;
+}
+
+#ev-car-div{
+    margin-left: 435px;
+    margin-top: -505px;
+}
+
+#ev-car-img{
+    height: 27em;
+}
+
+#truck-div{
+    margin-left: 908px;
+    margin-top: -657px;
+    width: 499px;
+    overflow-x: hidden;
+}
+
+#truck-img{
+    height: 45.5em;
 }
